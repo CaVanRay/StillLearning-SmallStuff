@@ -20,6 +20,8 @@ main(){
     }
     
     int tempMult, carry = 0;
+      
+//********** Need to review/change code below here *************** 
 
     for (int y = (factInput - 1); y >= 1; y--){
 
