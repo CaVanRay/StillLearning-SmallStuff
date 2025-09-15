@@ -10,6 +10,11 @@ main(){
   string toConvert;
   vector<int> TopV, BotV, ProdV;
 
+  for(int initial = 1; initial < 101; initial++){
+    for(int secondary = 1; secondary < 101; secondary++){
+      
+    }
+  }
   // String/Digit Converter
   toConvert = to_string(initial);
   for (char c : toConvert){
