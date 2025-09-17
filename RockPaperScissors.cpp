@@ -22,7 +22,8 @@ int main()
 		cout << "Input number (1-3): ";
 		cin >> weapon;
 		int random_number = (rand() % 3) + 1;
-
+		// Just looked at this for the first time in years
+		// what happens if you both pick the same number?
 		if(weapon==1){
 			if(random_number==3){
 				cout << "You Smashed my Scissors!" << endl;
@@ -52,4 +53,5 @@ int main()
 		cin >> choice;
 		choice = toupper(choice);
 	}while(choice == 'Y');
+
 }
